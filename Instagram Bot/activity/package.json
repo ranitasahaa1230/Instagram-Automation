@@ -1,0 +1,17 @@
+{
+  "name": "activity",
+  "version": "1.0.0",
+  "main": "page.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.3"
+  },
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  }
+}
