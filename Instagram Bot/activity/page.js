@@ -43,7 +43,7 @@ let noofPosts = process.argv[2];//input
             i++;
         }
         while (i < noofPosts) {}
-        return browserInstance.close();
+        await browserInstance.close();
     }
     catch (err) {
         console.log(err);
